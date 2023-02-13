@@ -2,7 +2,6 @@
     "name": "pkg-name",
     "type": "module",
     "version": "0.0.0",
-    "packageManager": "pnpm@7.26.1",
     "private": false,
     "description": "",
     "author": "Anton Ödman <anton.odman@gmail.com>",
@@ -15,6 +14,9 @@
     "bugs": "https://github.com/banjo/pkg-name/issues",
     "keywords": [],
     "sideEffects": false,
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
     "exports": {
         ".": {
             "types": "./dist/index.d.ts",
@@ -22,19 +24,8 @@
             "import": "./dist/index.js"
         }
     },
-    "main": "./dist/index.js",
-    "module": "./dist/index.js",
-    "types": "./dist/index.d.ts",
-    "typesVersions": {
-        "*": {
-            "*": [
-                "./dist/*",
-                "./dist/index.d.ts"
-            ]
-        }
-    },
     "files": [
-        "dist"
+        "dist/*"
     ],
     "scripts": {
         "build": "tsup",
