@@ -41,12 +41,10 @@
     },
     "devDependencies": {
         "@antfu/ni": "^0.19.0",
-        "@banjoanton/eslint-config-prettier": "^0.0.8",
+        "@banjoanton/eslint-config": "^0.1.1",
         "@banjoanton/prettier-config": "^0.0.8",
         "@banjoanton/utils": "^0.1.17",
         "@types/node": "^18.11.18",
-        "@typescript-eslint/eslint-plugin": "^5.54.0",
-        "@typescript-eslint/parser": "^5.54.0",
         "bumpp": "^8.2.1",
         "eslint": "^8.32.0",
         "esno": "^0.16.3",
